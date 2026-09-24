@@ -48,7 +48,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea"
+        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": [
@@ -321,13 +321,26 @@
       ]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
+        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -348,7 +361,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+        "sha": "99ef7ddd24df10b78f2e0eba98c577349dd01611",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
